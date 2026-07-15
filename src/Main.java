@@ -5,7 +5,7 @@ import java.util.*;
 class Employee{
     int id;
     String name;
-    void printDetails(){
+    public void printDetails(){
         System.out.println("Employee Name is "+name);
         System.out.println("Employee is is: "+id);
     }
