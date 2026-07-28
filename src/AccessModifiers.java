@@ -8,7 +8,7 @@ class Student{
     // set and get method
 
     public void setName(String name){
-        student_name=name;
+        this.student_name=name;
 
     }
     public String getName(){
